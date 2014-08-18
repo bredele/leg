@@ -1,0 +1,20 @@
+{
+  "name": "leg",
+  "repo": "bredele/leg",
+  "description": "A journey from the origin to the destination",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "leg.css"
+  ]
+}
