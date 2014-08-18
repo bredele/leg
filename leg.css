@@ -1,0 +1,63 @@
+.leg {
+	min-height: 153px;
+	width: 500px;
+}
+
+.details {
+	position: relative;
+	padding-left: 40px;
+	min-height: 153px;
+}
+
+.marker {
+  position: absolute;
+	left: -5px;
+	top: 0px;
+
+	width:13px;
+	height:13px;
+	border-radius:50%;
+	border:2px solid black;
+	background: white;
+}
+
+.time, .details {
+	float:left;
+	color:#333;
+}
+
+.time {
+	margin-right: 24px;
+}
+
+.address {
+	margin-bottom: 30px;
+}
+
+
+.walking .details {
+	background-color: #fff;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAYAAACXDi8zAAAAPUlEQVQIW2NkAAKpvXPrGf7/bwCxGRgZG545JzcyogiCZSCSjFJ75vyH8ZFpPBLI5iMbhdNybOaD7aeeBAAIbxzT+UylPQAAAABJRU5ErkJggg==);
+	background-repeat: repeat-y;
+	background-size: 6px 12px;
+}
+
+.transit .marker {
+	left: -11px;
+}
+
+.transit .details {
+	border-left:6px solid #1abc9c;
+}
+
+.address-details {
+	color: #777;
+	font-size: 13px;
+}
+
+
+.step-duration {
+  display:block;
+}
+
+

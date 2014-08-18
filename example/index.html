@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Leg</title>
+	<style>
+	  body {
+	  	padding:100px;
+	  }
+	</style>
+	<link rel="stylesheet" href="../build/build.css">
+</head>
+<body>
+	<script src="../build/build.js"></script>
+	<script>
+	  var leg = require('leg');
+	  var view = leg({
+	  	type: 'walking',
+	  	time: '5:17pm',
+	  	address: {
+	  		label: 'Bredele Inc',
+	  		details: 'Mouhahaha'
+	  	},
+	  	step: {
+	  		description: 'Walk to EB 46 Av SW@ Glacier Dr',
+	  		duration: 'About 3 mins'
+	  	}
+	  }).build(document.body);
+	  leg({
+	  	type: 'transit',
+	  	time: '5:21pm',
+	  	address: {
+	  		label: 'EB 46 Av SW@ Glacier Dr',
+	  		details: 'Mouhahaha'
+	  	},
+	  	step: {
+	  		description: 'Walk to EB 46 Av SW@ Glacier Dr',
+	  		duration: 'About 3 mins'
+	  	}
+	  }).build(document.body);
+	</script>
+</body>
+</html>
